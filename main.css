@@ -1,0 +1,28 @@
+*{
+	margin: 0px;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+.container{
+	height: 100%;
+	width: 100%;
+	background:
+		linear-gradient(
+			rgba(255,211,211,0.3),
+			rgba(255,211,211,0.3)
+			),
+		url(pic1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.welcome_text{
+	color: #000000;
+	font-family: sans-serif;
+	text-align:center;
+	margin: auto;
+	padding-top: 350px;
+	font-size: 80px;
+	letter-spacing: 10px;
+}
